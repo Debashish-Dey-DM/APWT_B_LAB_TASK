@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/login', ['as'=>'login.index', 'uses'=>'LoginController@index']);
 Route::post('/login', 'LoginController@verify');
 Route::get('/home', 'Homecontroller@index');
+Route::get('/logout', 'LogoutController@index');

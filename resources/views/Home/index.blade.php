@@ -16,5 +16,7 @@
 			<td><input type="text" name="username" value="{{$C['username']}}"></td>
          </tr>
      </table> --}}
+
+     <a href="/logout"> Logout </a> 
 </body>
 </html>
