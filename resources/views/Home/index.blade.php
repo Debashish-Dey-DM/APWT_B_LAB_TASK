@@ -8,9 +8,13 @@
 </head>
 <body>
     <h1>Hi</h1>
-        {{-- <h1>Welcome home, {{session('uname')}} :: {{$id}}</h1>
-        <a href="/user/create"> Create New </a> |
-        <a href="{{route('user.index')}}"> User List </a> |
-        <a href="/logout"> Logout </a>  --}}
+    <h1>Welcome home, {{session('email')}}</h1>
+    <h2>{{session('password')}}</h2>
+     {{-- <table>
+         <tr>
+             <td>Username</td>
+			<td><input type="text" name="username" value="{{$C['username']}}"></td>
+         </tr>
+     </table> --}}
 </body>
 </html>

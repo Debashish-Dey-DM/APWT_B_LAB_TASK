@@ -23,11 +23,11 @@
 		</tr>
 	</table>
 	</form>
-		{{-- {{session('msg')}}
+		{{-- {{session('msg')}} --}}
 		<br>
 
-		{{-- @foreach ($errors->all() as $err)
+		@foreach ($errors->all() as $err)
 			{{$err}} <br>
-		@endforeach --}}
+		@endforeach
 </body> 
 </html>
