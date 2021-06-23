@@ -17,3 +17,5 @@ Route::get('/login', ['as'=>'login.index', 'uses'=>'LoginController@index']);
 Route::post('/login', 'LoginController@verify');
 Route::get('/home', 'Homecontroller@index');
 Route::get('/logout', 'LogoutController@index');
+Route::get('/Reg', 'UserController@index');
+Route::post('/Reg','UserController@verify');

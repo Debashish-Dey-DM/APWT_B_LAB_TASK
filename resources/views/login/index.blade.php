@@ -21,6 +21,10 @@
 			<td></td>
 			<td><input type="submit" name="Login" value="Login"></td>
 		</tr>
+			<tr>
+			<td></td>
+			<td><a href="/Reg">Registration</a></td>
+		</tr>
 	</table>
 	</form>
 		{{-- {{session('msg')}} --}}
